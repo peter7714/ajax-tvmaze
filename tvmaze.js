@@ -81,7 +81,7 @@ async function getEpisodesOfShow(id) {
   return epData.data.map(response => ({
       id: response.id,
       name: response.name,
-      season: response.name,
+      season: response.season,
       number: response.number
   }));
 }
